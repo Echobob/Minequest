@@ -14,12 +14,16 @@
 		<repository>
 			<id>spout-repo</id>
 			<name>Spout API</name>
-			<url>http://repo.getspout.org/</url>
+			<url>http://nexus.getspout.org/content/groups/public/</url>
 			<layout>default</layout>
 		</repository>
 		<repository>
 			<id>milkbowl-repo</id>
 			<url>http://ci.milkbowl.net/plugin/repository/everything/</url>
+		</repository>
+		<repository>
+			<id>buildlincom-repo</id>
+			<url>http://build.lincomlinux.org/jenkins/plugin/repository/everything/</url>
 		</repository>
 	</repositories>
 	<build>
